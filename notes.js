@@ -38,7 +38,27 @@ const loadNotes = function () {
         }
 }
 
+const removeNotes = (title, body) => {
+    const notes = loadNotes()
+    const deletedNotes = notes.filter(function (note){
+        return note.title === title
+    })
+
+    if(deletedNotes.length === 0){
+        notes.push({
+            title: title,
+            body: body
+        })
+    
+        saveNotes(notes)
+    } else {
+        console.log('Note Taken!')
+    }
+
+}
+
 module.exports = {
     getNotes,
-    addNote
+    addNote,
+    removeNotes
 }
