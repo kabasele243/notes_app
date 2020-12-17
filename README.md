@@ -3,7 +3,15 @@
 We've built A Note App Using The Command Line With Node.js
 
 ## Prerequisites
+This project requires running Node.js, we recommend using the latest LTS version (even-numbered). You may run into issues otherwise. Check [nodejs.org](https://nodejs.org/) for the latest release. Run `node -v` to determine the version of Node.js you are currently using.
 
+If you don't have Node.js installed, please download it and follow the instructions relevant to your platform here: Check [nodejs.org] (https://nodejs.org/)
+
+If it's properly installed, you should be able to run this without error in your terminal:
+
+`node -v`
+
+When it comes to 
 
 ## Setup
 
