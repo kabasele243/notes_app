@@ -67,5 +67,5 @@ yargs.command({
         console.log('read a note')
     }
 })
-
+console.log('Hellos')
 yargs.parse()
